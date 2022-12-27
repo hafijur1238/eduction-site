@@ -134,3 +134,96 @@ nav .navigation ul li a:hover {
     color: rgb(47, 21, 100);
     background-color: #fff;
 }
+
+/* Features */
+
+#features {
+    padding: 5vw 8vw 0 8vw;
+    text-align: center;
+}
+
+#features .fea-base {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+#features .feature-box {
+    background: #f9f9ff;
+    text-align: start;
+}
+
+#features .feature-box i {
+    font-size: 2.3rem;
+    color: rgb(44, 44, 80);
+}
+
+#features .feature-box h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(46, 46, 59);
+    padding: 13px 0 7px 0;
+}
+
+#features .feature-box p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(70, 70, 87);
+}
+
+/* Courses */
+
+#course {
+    padding: 8vw 8vw 0 8vw;
+    text-align: center;
+}
+
+#course .course-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.span-tag {
+    font-size: 20px;
+}
+
+#course .courses {
+    text-align: start;
+    background: #f9f9ff;
+    height: 100%;
+    position: relative;
+}
+
+#course .courses img {
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    background-position: center;
+}
+
+#course .courses .course-details {
+    padding: 15px 15px 0 15px;
+}
+
+#course .courses .course-details i {
+    color: #fdc93b;
+    font-size: .9rem;
+}
+
+#course .courses .cost {
+    background-color: rgb(74, 74, 136);
+    color: #fff;
+    line-height: 70px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 15px;
+    bottom: 100px;
+}
