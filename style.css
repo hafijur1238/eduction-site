@@ -39,6 +39,7 @@ nav {
     align-items: center;
     padding: 1vw 8vw;
     box-shadow: 2px 2px 10px rgb(0, 0, 0.10);
+    z-index: 999;
 }
 
 nav img {
@@ -176,7 +177,7 @@ nav .navigation ul li a:hover {
 /* Courses */
 
 #course {
-    padding: 8vw 8vw 0 8vw;
+    padding: 8vw 8vw 8vw 8vw;
     text-align: center;
 }
 
@@ -310,4 +311,142 @@ nav .navigation ul li a:hover {
 #registration .form a.yellow-btn:hover {
     color: rgb(47, 21, 100);
     background-color: #fff;
+}
+
+/* experts */
+
+#experts {
+    padding: 8vw 8vw 8vw 8vw;
+    text-align: center;
+}
+
+#experts .expert-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+#experts .expert-box .profile {
+    background: #f1faf9;
+    padding: 30px 10px;
+    border-radius: 5px;
+
+}
+
+.profile-link {
+    margin-top: 10px;
+}
+
+.profile-link i {
+    padding: 10px 13px;
+    border: 1px solid rgba(21, 21, 100);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.profile-link i:hover {
+    background: rgb(21, 21, 100);
+    color: #fff;
+    border: 1px solid rgb(21, 21, 100);
+    cursor: pointer;
+}
+
+/* footer */
+
+footer {
+    padding: 8vw;
+    background-color: rgb(100, 21, 91);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+footer .footer-col {
+    padding-bottom: 40px;
+}
+
+footer h3 {
+    color: rgb(241, 240, 245);
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+footer li {
+    list-style: none;
+    color: #7b838a;
+    padding: 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+footer li:hover {
+    color: rgb(241, 240, 245);
+}
+
+footer p {
+    color: #7b838a;
+}
+
+footer .subscribe {
+    margin-top: 20px;
+
+}
+
+footer input {
+    width: 220px;
+    padding: 15px 12px;
+    background: #ce81fb;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+footer .subscribe a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 12px 15px;
+    background-color: #fff;
+    font-weight: 600;
+}
+
+footer .subscribe a.blue-btn {
+    color: #fff;
+    background-color: rgb(21, 21, 100);
+    transition: 0.3s ease;
+}
+
+footer .subscribe a.blue-btn:hover {
+    color: rgb(47, 21, 100);
+    background-color: #fff;
+}
+
+footer .copyright {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+footer .copyright p {
+    color: #fff;
+}
+
+footer .copyright .profile-link {
+    margin-top: 0px;
+}
+
+footer .copyright .profile-link i {
+    background: #2436dc;
+    color: #fff;
+}
+
+footer .copyright .profile-link i:hover {
+    background: #fdc93b;
+    color: #2c2c2c;
 }
