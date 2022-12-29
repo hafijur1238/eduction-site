@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <title>Online Education</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -21,15 +23,18 @@
 <body>
     <!-- Navigation -->
     <nav>
-        <img src="images/logo.svg" alt="">
+        <!-- <img src="images/logo.svg" alt=""> -->
+        <i id="logo" class="fa-solid fa-building-columns"></i>
         <div class="navigation">
             <ul>
+                <i id="menu-close" class="fa-solid fa-xmark"></i>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Courses</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
+            <img id="menu-btn" src="images/menu.png" alt="">
         </div>
     </nav>
     <!-- Home -->
@@ -43,6 +48,7 @@
             <a class="yellow-btn" href="#">Visit Courses</a>
         </div>
     </section>
+
     <!-- Features -->
     <section id="features">
         <h1>Awesome Features</h1>
@@ -322,6 +328,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="app.js"></script>
 </body>
 
 </html>
