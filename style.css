@@ -591,6 +591,71 @@ footer .copyright .profile-link i:hover {
 }
 
 
+#blog-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 8vw;
+}
+
+#blog-container .blogs {
+    width: 60%;
+}
+
+#blog-container .blogs img {
+    width: 100%;
+    border-radius: 19px;
+}
+
+#blog-container .blogs .post {
+    padding-bottom: 60px;
+}
+
+#blog-container .blogs .post h3 {
+    color: #29303b;
+    padding: 15px 0 10px 0;
+}
+
+#blog-container .blogs .post p {
+    color: #757373;
+    padding-bottom: 20px;
+}
+
+#blog-container .blogs .post a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: rgb(21, 21, 100);
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+#blog-container .blog-cate {
+    width: 30%;
+}
+
+#blog-container .blog-cate h2 {
+    padding-bottom: 7px;
+}
+
+#blog-container .blog-cate a {
+    text-decoration: none;
+    color: #757373;
+    font-weight: 500;
+    line-height: 45px;
+    transition: 0.3s ease;
+}
+
+#blog-container .blog-cate a:hover {
+    color: rgb(100, 21, 91);
+}
+
+
+
+
+
+
 @media (max-width: 769px) {
     nav {
         padding: 15px 20px;
